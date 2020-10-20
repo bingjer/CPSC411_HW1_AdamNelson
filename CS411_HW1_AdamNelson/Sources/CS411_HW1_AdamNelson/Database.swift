@@ -7,7 +7,7 @@ import Foundation
 
 class Database {
     static var dbObj : Database!
-    let dbname = "../ClaimDb.sqlite"
+    let dbname = "/Users/adam/Desktop/CS411_HW1_AdamNelson/ClaimDb.sqlite"
     var conn : OpaquePointer!
 
     init() {
